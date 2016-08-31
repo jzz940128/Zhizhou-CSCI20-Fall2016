@@ -9,14 +9,19 @@ using namespace std;
    input information for mad libs, and ouput the user's input
 */
 int main() {
+    // initialize the variables I will to use
     string Name;
     int age=0;
     float birthday;
     string talks;
     char blood;
     string answer;
+    //declare what u r going to do
 cout<<"You met a girl on social App. at couple week ago, right now u r talking to her."<<endl;
 cout<<"try to invite her hang out with you and u r a nurd."<<endl;
+   
+   
+   //Start talking right now
 cout<<"Hey, what's up. I am_____.How can I call u ?"<<endl;
 cin>>Name;
 cout<<"Hey "<<Name<<", I am hot girl, how old are you?(enter an age)"<<endl;
