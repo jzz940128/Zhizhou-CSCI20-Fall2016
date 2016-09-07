@@ -33,6 +33,6 @@ using namespace std;
    */
      //initialize variable of the final score: int finalS =0;
      //tell user win and earn their final score: finals = 10 - use_round;
-    
+ 
     
   } 
