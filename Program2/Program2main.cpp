@@ -8,7 +8,7 @@
       Mars: Earth /2.64
       Jupiter: (Earth/ 9.81 )*24.79 = Earth * 2.53
 */
-   */
+   
 #include<iostream>
 #include"program2.cpp"
 using namespace std;
