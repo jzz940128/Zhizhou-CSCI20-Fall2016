@@ -70,7 +70,7 @@ using namespace std;
   monster3.Ears ="Wackus";
   monster3.Nose ="Spritem";
   monster3.Mouth ="Vegitas";
-   cout<<"-------------------------------------------------------------------------"<<endl;
+   cout<<"---------------------------------------------------0----------------------"<<endl;
    cout<<"Here is the third monster u build: "<<monster3.Name<<endl;
    cout<<"head: "<<monster3.Head<<", eyes: "<<monster3.Eyes<<", ears: "<<monster3.Ears;
    cout<<"nose: "<<monster3.Nose<<", mouth: "<<monster3.Mouth<<endl;
