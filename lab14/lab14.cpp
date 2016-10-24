@@ -11,7 +11,6 @@
 #include<string>
 using namespace std;
 
- 
  int main() {         
 // Declare variables        
 int count=0;       
