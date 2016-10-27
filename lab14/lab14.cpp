@@ -64,7 +64,8 @@ while (grade != -1) {
 ----technique
 1. Rubber duck - Actually the process was not very seriously, I didn't really force myself to
   explain. However, I read all of the codes, line by line, ward by ward before I ran it. For me, 
-  this step is mostly for see what the program trying to do, and check if it missed some little 
+  this step is mostly for see what the program trying to do, and check if it miss
+  ed some little 
   thing, such as '}' , ';' etc.
 2. Print debugging - After I read it, I ran the code and test it, see what would happen. For
  this program, most of error I found, and problems I solved was on this step. The coding never failed
