@@ -1,4 +1,4 @@
- /* Lab14 -Single dimesional array
+ /* Lab15-Single dimesional array
    Author: Zhizhou Jiang
    Class:  CSCI20 Browne
    Date:   10/26/2016
@@ -58,14 +58,18 @@ for(int j =0; j<10; j++){
     }
      int i =0;// variable for a for loop condition
      
-     // out put the list of user's shopping cart
+     // if user bought something out put the list of user's shopping cart
    
-    
-    cout<<"There's nothing in your cart."<<endl;
-    cout<<endl;
+    if(count>0) { 
+    cout<<"you have "<<count<<" items in cart"<<endl;
     cout<<"Items in cart: "<<endl;
     for(i = 0; i<=count; i++){
        cout<<requests[i]<<endl;
+    }
+     }
+     //output if user didn't buy anything
+    else{
+        cout<<"Nothing in your cart";
     }
     
     return 0;
