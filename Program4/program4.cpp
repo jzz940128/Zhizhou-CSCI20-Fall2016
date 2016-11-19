@@ -121,7 +121,7 @@ int omitted = 0; // to count how many questions are omitted
 int omitList[21]; // to store the omitted questions
 
 int incorrect = 0; // to count the incorrect question
-int incorrectList[23]; // store the incorrect questions
+int incorrectList[21]; // store the incorrect questions
 double point1 =0; // count the point
 int array1[21];//to distinguish each question is correct, incorrect, or omitted, 9 is correct, 0 is omitted, 1 is correct
 //loop running by i < 21(the numbers of questions)
