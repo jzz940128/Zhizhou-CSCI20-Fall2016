@@ -1,3 +1,4 @@
+-------------------------Students Data-------------------------
 student1: ChristianSmith
 omitted: 8 questions: #0 #6 #10 #11 #12 #16 #17 #19 
 incorrect: 10 questions: #1 #2 #3 #5 #7 #8 #9 #13 #18 #20 
@@ -22,7 +23,7 @@ student6: CarrieGrant
 omitted: 3 questions: #1 #7 #10 
 incorrect: 9 questions: #0 #2 #5 #6 #8 #11 #15 #16 #17 
 correct: 9 Grade: 6.75
-------------------------------------------------------The Class Data
+-----------------------The Class Data-----------------------------
 Average Grade: 2.5
 Most omitted Questions: #6 #11 #12 #16 #17 #19 
 Most incorrect Questions: #0 #2 #3 #5 #7 #8 #9 #10 #13 #15 

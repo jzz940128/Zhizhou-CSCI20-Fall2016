@@ -151,16 +151,17 @@ while(i<21) {
 }
 
 //output the student1's data
-cout<<"student1 :"<<endl;
+cout<<endl<<"student1 "<<endl;
+cout<<"Name: "<<name1[0]<<" "<<name1[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted; j++ ) {
-    cout<<omitList[j]<<" ";
+    cout<<"#"<<omitList[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect; j++ ) {
-    cout<<incorrectList[j]<<" ";
+    cout<<"#"<<incorrectList[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct<<" toatal point: "<<point1<<endl;
 cout<<"omitted: "<<omitted<<endl;
@@ -198,16 +199,17 @@ while(i<21) {
     i++;
 }
 //output student2's data
-cout<<"student2 :"<<endl;
+cout<<endl<<"student2 "<<endl;
+cout<<"Name: "<<name2[0]<<" "<<name2[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted2; j++ ) {
-    cout<<omitList2[j]<<" ";
+    cout<<"#"<<omitList2[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect2; j++ ) {
-    cout<<incorrectList2[j]<<" ";
+    cout<<"#"<<incorrectList2[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct2<<" toatal point: "<<point2<<endl;
 cout<<"omitted: "<<omitted2<<endl;
@@ -243,16 +245,17 @@ while(i<21) {
     i++;
 }
 //output student3's data
-cout<<"student3 :"<<endl;
+cout<<endl<<"student3 "<<endl;
+cout<<"Name: "<<name3[0]<<" "<<name3[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted3; j++ ) {
-    cout<<omitList3[j]<<" ";
+    cout<<"#"<<omitList3[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect3; j++ ) {
-    cout<<incorrectList3[j]<<" ";
+    cout<<"#"<<incorrectList3[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct3<<" toatal point: "<<point3<<endl;
 cout<<"omitted: "<<omitted3<<endl;
@@ -288,16 +291,17 @@ while(i<21) {
     i++;
 }
 //output student4's data
-cout<<"student4 :"<<endl;
+cout<<endl<<"student4 "<<endl;
+cout<<"Name: "<<name4[0]<<" "<<name4[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted4; j++ ) {
-    cout<<omitList4[j]<<" ";
+    cout<<"#"<<omitList4[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect4; j++ ) {
-    cout<<incorrectList4[j]<<" ";
+    cout<<"#"<<incorrectList4[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct4<<" toatal point: "<<point4<<endl;
 cout<<"omitted: "<<omitted4<<endl;
@@ -333,16 +337,17 @@ while(i<21) {
     i++;
 }
 //output student5's data
-cout<<"student5 :"<<endl;
+cout<<endl<<"student5 "<<endl;
+cout<<"Name: "<<name5[0]<<" "<<name5[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted5; j++ ) {
-    cout<<omitList5[j]<<" ";
+    cout<<"#"<<omitList5[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect5; j++ ) {
-    cout<<incorrectList5[j]<<" ";
+    cout<<"#"<<incorrectList5[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct5<<" toatal point: "<<point5<<endl;
 cout<<"omitted: "<<omitted5<<endl;
@@ -379,16 +384,17 @@ while(i<21) {
     i++;
 }
 //output student6's data
-cout<<"student6 :"<<endl;
+cout<<endl<<"student6 "<<endl;
+cout<<"Name: "<<name6[0]<<" "<<name6[1]<<endl;
 j = 0;
 cout<<"ommited Questions:";
 for(j == 0; j< omitted6; j++ ) {
-    cout<<omitList6[j]<<" ";
+    cout<<"#"<<omitList6[j]<<" ";
 }
 j = 0;
 cout<<endl<<"incorrect Questions:";
 for(j == 0; j<incorrect6; j++ ) {
-    cout<<incorrectList6[j]<<" ";
+    cout<<"#"<<incorrectList6[j]<<" ";
 }
 cout<<endl<<"correct: "<<correct6<<" toatal point: "<<point6<<endl;
 cout<<"omitted: "<<omitted6<<endl;
@@ -399,7 +405,8 @@ inFS2.close();
 
 //output each student answer's status 0 is omitted, 1 is incorrect, 9 is correct
 //student1
-cout<<"Answer Check: 0 means omitted, 1 means incorrect, 9 means correct."<<endl;
+
+cout<<endl<<"Answer Check: 0 means omitted, 1 means incorrect, 9 means correct."<<endl;
 for(int q = 0; q< 21; q++) {
   cout<<array1[q];
 }
@@ -516,6 +523,7 @@ ofstream outfs;
 outfs.open("StudentData.txt");
 //output student data to file
 //student1
+outfs<<"-------------------------Students Data-------------------------"<<endl;
 outfs<<"student1: "<<name1[0]<<name1[1]<<endl;
 outfs<<"omitted: "<<omitted<<" questions: ";
 for(i = 0; i< omitted; i++ ){
@@ -582,8 +590,8 @@ for(x = 0; x < incorrect6; x++) {
   outfs<<"#"<<incorrectList6[x]<<" ";
 }
 outfs<<endl<<"correct: "<<correct6<<" Grade: "<<point6<<endl;
-outfs<<"------------------------------------------------------";
-outfs<<"The Class Data"<<endl;
+outfs<<"-----------------------The Class Data-----------------------------"<<endl;
+
 outfs<<"Average Grade: "<<average.getaverage(total)<<endl;
 outfs<<"Most omitted Questions: ";
 for(y = 0; num_omit[y] != '\0'; y++) {
