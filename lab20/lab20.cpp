@@ -4,7 +4,7 @@
    Date:   11/21/2016
    Description: Take the code by given, comment it 
    to demonstrate what it is doing 
-*/
+ */
 #include <iostream>
 #include <cstring>
 using namespace std;
